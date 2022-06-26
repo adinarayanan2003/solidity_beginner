@@ -18,9 +18,9 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
-const Rpc_url = process.env.rpc_url || "https://eth-rinkeby.alchemyapi.io/v2/WyhgTk5Wt6CuYBWZ4WPKj2cBePX8cUHX"
-const priv_key = process.env.priv_key || "0x33606e7e2704f353f9bcd7e4cc83c2a6ec5e75ce88b723d58b929f741f4349d8"
-const etherscankey = process.env.etherscanapi || "V7C9DKHCGN8KBNB17W858TQMM34ZN397W1"
+const Rpc_url = process.env.rpc_url || ""
+const priv_key = process.env.priv_key || ""
+const etherscankey = process.env.etherscanapi || ""
 
 module.exports = {
   defaultNetwork : "hardhat",
