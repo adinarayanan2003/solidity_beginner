@@ -6,4 +6,8 @@ yarn solhint contracts/*.sol
 
 yarn add --dev @chainlink/contracts 
 
+//avoiding scripts/deploy.js 
 yarn add --dev hardhat-deploy
+
+// ethers remember each deployment by this overwriting
+ yarn add --dev @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
