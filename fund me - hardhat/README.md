@@ -1,2 +1,2 @@
 
-yarn solhint contracts/*.sol //solhint usage
+yarn solhint contracts/*.sol        -> //solhint usage
